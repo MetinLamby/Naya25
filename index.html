@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 25th Birthday!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-ring"></div>
+      <div class="hero-sparks">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1>Happy 25th Birthday!</h1>
+      <p>Here’s a little surprise story made just for you.</p>
+    </header>
+
+    <main class="story">
+      <section class="slide active" data-slide="1">
+        <div class="slide-card">
+          <span class="slide-label">Slide 1</span>
+          <h2>The adventure begins</h2>
+          <img src="IMG_2714.PNG" alt="You and me" />
+          <p>Happy birthday to the one who fills every day with light, laughter, and magic.</p>
+        </div>
+      </section>
+
+      <section class="slide" data-slide="2">
+        <div class="slide-card">
+          <span class="slide-label">Slide 2</span>
+          <h2>Remember this moment?</h2>
+          <img src="photo2.jpg" alt="Our favorite moment" />
+          <p>From silly faces to sweet hugs, every moment with you is my favorite.</p>
+        </div>
+      </section>
+
+      <section class="slide" data-slide="3">
+        <div class="slide-card">
+          <span class="slide-label">Slide 3</span>
+          <h2>You're the best part</h2>
+          <div class="emoji-cloud">🥳💖✨</div>
+          <p>Every day gets brighter because of you — and today we celebrate the amazing 25-year-old you are.</p>
+        </div>
+      </section>
+
+      <section class="slide" data-slide="4">
+        <div class="slide-card reveal-card">
+          <span class="slide-label">Final Surprise</span>
+          <h2>Your gift is ready...</h2>
+          <div class="gift-frame">
+            <video controls playsinline preload="metadata" style="width:min(760px,100%);border-radius:28px;box-shadow:0 24px 70px rgba(0,0,0,0.28);">
+              <source src="the-long-way-home-20260516-162156.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p>It’s a cupboard for the next chapter of our home. Enjoy every little detail.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="controls">
+      <button id="prevButton" class="nav-button secondary" aria-label="Previous slide">← Back</button>
+      <button id="nextButton" class="nav-button primary" aria-label="Next slide">Next →</button>
+    </footer>
+  </div>
+</body>
+</html>
